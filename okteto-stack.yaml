@@ -1,4 +1,4 @@
-name: nino
+name: ninoez
 services:
   worker:
     public: true
