@@ -1,4 +1,4 @@
-name: nino
+name: amore
 services:
   worker:
     public: true
