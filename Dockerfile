@@ -19,10 +19,10 @@ RUN apt update && apt install \
 RUN rm -rf /var/lib/apt/lists /var/cache/apt/archives /tmp/*
 
 # Clone the repo
-RUN git clone https://github.com/hikariatama/Hikka /Hikka
+RUN git clone https://github.com/AmoreForever/NinoEZ /NinoEZ
 
 # Change working directory
-WORKDIR /Hikka
+WORKDIR /NinoEZ
 
 # Install mandatory pip requirements
 RUN pip install \
